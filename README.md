@@ -1,6 +1,6 @@
 ## Library Management System in Python using Tkinter
 ## Project Overview
-This Library Management System is a desktop application developed using Python and the Tkinter GUI library to manage library operations such as adding, deleting, issuing, returning, and searching for books. It incorporates a graphical user interface along with a database backend (SQLite or MySQL) to store and retrieve library data efficiently.
+This Library Management System is a desktop application developed using Python and the Tkinter GUI library to manage library operations such as adding, deleting, issuing, returning, and searching for books. It incorporates a graphical user interface to store and retrieve library data efficiently.
 
 ## Features
 User-friendly Graphical User Interface built with Tkinter
@@ -21,7 +21,6 @@ Data persistence using SQLite or MySQL database
 Python 3.x
 
 Tkinter for GUI development
-Python modules: messagebox, ttk.Treeview, simpledialog (Tkinter components for dialogs and data display)
 
 ## Installation & Setup
 Install Python (if not already installed) from python.org.
@@ -31,7 +30,6 @@ Tkinter comes pre-installed with most Python installations. If not, install it v
 
 bash
 pip install tk
-Clone or download the project source code.
 
 ## Usage
 Run the main Python script to launch the application GUI:
@@ -49,21 +47,6 @@ Issue books to users
 Return issued books
 
 View and search available books
-
-Each action provides user feedback using dialog boxes and updates the database accordingly.
-
-## File Structure
-main.py — Launches the Tkinter window and contains main application logic
-
-add.py — Handles adding new books
-
-delete.py — Manages book deletion
-
-issue.py — Manages issuing books to members
-
-return.py — Handles returning books
-
-view.py — Displays and searches book records
 
 ## Future Improvements
 Implement advanced user authentication with roles (admin, member)
