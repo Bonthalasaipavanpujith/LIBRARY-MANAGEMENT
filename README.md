@@ -65,5 +65,5 @@ Include member management (registration, details, history)
 This implementation is inspired by various open-source projects and tutorials on Python Tkinter Library Management Systems.
 
 This README provides a solid foundation and can be customized further based on your project specifics. If you want, I can help generate sample code snippets or detailed setup instructions too.
-## 📜 License
+## License
 This project is licensed under the MIT License. 📄
